@@ -1,0 +1,10 @@
+metadataId: 1489f7f8-40c8-4dc4-83b6-bcf277b56506
+output_directory: produktspesifikasjon
+product_slug: stoysoner_avinors_lufthavner
+updated: '2026-09-17'
+outputs: geopackage
+scopes:
+- name: UML-modell
+  url: https://sosi.geonorge.no/svn/SOSI/SOSI%20Del%203/Avinor/St%c3%b8ysonerAvinorLufthavn-T-1442_20190501.xml
+  generator: xmi
+  description: ''
