@@ -429,19 +429,7 @@ Egenskaper
     </tr>
     <tr>
       <th scope="row">Tillatte verdier:</th>
-      <td>- Rød sone – områder som ikke er egnet til støyfølsomme bruksformål, og etablering av ny støyfølsom bebyggelse skal unngås
-
--- Definition --
-areas which are not suitable for noise sensitive use, and development of new noise sensitive building developments should be avoided<br />- Gul sone – vurderingssone hvor støyfølsom bebyggelse kan oppføres dersom avbøtende tiltak gir tilfredstillende støyforhold
-
--- Definition --
-evaluation zone where noise sensitive building developments may be built if corrective measures yield satisfactory noise conditions<br />- Grønn sone – verdifulle stille området, definert av kommunen
-
--- Definition --
-valuable quiet areas, defined by the municipality<br />- Grå sone – område hvor støysone ikke er kartlagt
-
--- Definition --
-areas where the noise zone has not been ??surveyed/identified</td>
+      <td>- Kodeliste: <a href="https://register.geonorge.no/sosi-kodelister/forurensning/st%c3%b8y/st%c3%b8ysonekategori">https://register.geonorge.no/sosi-kodelister/forurensning/st%c3%b8y/st%c3%b8ysonekategori</a></td>
     </tr>
   </tbody>
 </table>
@@ -470,10 +458,7 @@ areas where the noise zone has not been ??surveyed/identified</td>
     </tr>
     <tr>
       <th scope="row">Tillatte verdier:</th>
-      <td>- Flyplass – Gjelder også helikopterlandingsplass
-
--- Definition --
-Includes helicopter landing pad</td>
+      <td>- Kodeliste: <a href="https://register.geonorge.no/sosi-kodelister/forurensning/st%c3%b8y/st%c3%b8ykilde">https://register.geonorge.no/sosi-kodelister/forurensning/st%c3%b8y/st%c3%b8ykilde</a></td>
     </tr>
   </tbody>
 </table>
@@ -590,7 +575,7 @@ Profilparametre i tagged values
   </tbody>
 </table>
 
-#### «Enumeration» Støysonekategori
+#### «CodeList» Støysonekategori
 
 **Definisjon:** støysone for planleggingsformål
 
@@ -598,53 +583,26 @@ Profilparametre i tagged values
 -- Definition - -
 noise zone for planning purposes
 
-Koder
+Profilparametre i tagged values
 
-<table class="code-list-table">
-  <thead>
-    <tr>
-      <th>Kodenavn:</th>
-      <th>Definisjon:</th>
-      <th>Kodeverdi:</th>
-    </tr>
-  </thead>
+<table class="feature-attribute-table">
+  <colgroup>
+    <col style="width: 35%;" />
+    <col style="width: 65%;" />
+  </colgroup>
   <tbody>
     <tr>
-      <td>Rød sone</td>
-      <td>områder som ikke er egnet til støyfølsomme bruksformål, og etablering av ny støyfølsom bebyggelse skal unngås
-
--- Definition --
-areas which are not suitable for noise sensitive use, and development of new noise sensitive building developments should be avoided</td>
-      <td></td>
+      <th scope="row">asDictionary</th>
+      <td>true</td>
     </tr>
     <tr>
-      <td>Gul sone</td>
-      <td>vurderingssone hvor støyfølsom bebyggelse kan oppføres dersom avbøtende tiltak gir tilfredstillende støyforhold
-
--- Definition --
-evaluation zone where noise sensitive building developments may be built if corrective measures yield satisfactory noise conditions</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Grønn sone</td>
-      <td>verdifulle stille området, definert av kommunen
-
--- Definition --
-valuable quiet areas, defined by the municipality</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Grå sone</td>
-      <td>område hvor støysone ikke er kartlagt
-
--- Definition --
-areas where the noise zone has not been ??surveyed/identified</td>
-      <td></td>
+      <th scope="row">codeList</th>
+      <td><a href="https://register.geonorge.no/sosi-kodelister/forurensning/st%c3%b8y/st%c3%b8ysonekategori">https://register.geonorge.no/sosi-kodelister/forurensning/st%c3%b8y/st%c3%b8ysonekategori</a></td>
     </tr>
   </tbody>
 </table>
 
-#### «Enumeration» Støykilde
+#### «CodeList» Støykilde
 
 **Definisjon:** type støykilder
 
@@ -652,24 +610,21 @@ areas where the noise zone has not been ??surveyed/identified</td>
 -- Definition - -
 types of noise sources
 
-Koder
+Profilparametre i tagged values
 
-<table class="code-list-table">
-  <thead>
-    <tr>
-      <th>Kodenavn:</th>
-      <th>Definisjon:</th>
-      <th>Kodeverdi:</th>
-    </tr>
-  </thead>
+<table class="feature-attribute-table">
+  <colgroup>
+    <col style="width: 35%;" />
+    <col style="width: 65%;" />
+  </colgroup>
   <tbody>
     <tr>
-      <td>Flyplass</td>
-      <td>Gjelder også helikopterlandingsplass
-
--- Definition --
-Includes helicopter landing pad</td>
-      <td></td>
+      <th scope="row">asDictionary</th>
+      <td>true</td>
+    </tr>
+    <tr>
+      <th scope="row">codeList</th>
+      <td><a href="https://register.geonorge.no/sosi-kodelister/forurensning/st%c3%b8y/st%c3%b8ykilde">https://register.geonorge.no/sosi-kodelister/forurensning/st%c3%b8y/st%c3%b8ykilde</a></td>
     </tr>
   </tbody>
 </table>
