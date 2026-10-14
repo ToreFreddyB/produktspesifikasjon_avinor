@@ -4,7 +4,7 @@
   "format": "text/html",
   "date": {
     "creation": "2014-04-07",
-    "revision": "2025-01-17"
+    "revision": "2026-10-12"
   },
   "language": "nor",
   "contact": {
@@ -36,7 +36,6 @@
       "Lufthavner",
       "Flyplass",
       "Avinor",
-      "Norge",
       "Rapporteringsenheter og områder med særlig forvaltning eller restriksjoner",
       "Inspire",
       "Det offentlige kartgrunnlaget",
@@ -88,17 +87,20 @@
         "southBoundLatitude": "57.0",
         "northBoundLatitude": "72.0"
       },
+      "geographicDescription": [
+        "Norge"
+      ],
       "temporalElement": {
         "timePeriod": {
           "beginPosition": "2014-04-07",
-          "endPosition": "2025-01-17"
+          "endPosition": "2026-10-12"
         }
       }
     },
     "date": {
       "creation": "2014-04-07",
       "publication": "2014-04-07",
-      "revision": "2025-01-17"
+      "revision": "2026-10-12"
     },
     "language": "nor"
   },
@@ -169,7 +171,7 @@
       {
         "nameOfMeasure": "Prosentvis oppfyllelse av FAIR-prinsipper",
         "measureDescription": "Angir fullstendighet i forhold til krav fra FAIR-prinsippene (The FAIR Guiding Principles for scientific data management and stewardship)",
-        "result": "96"
+        "result": "97"
       }
     ]
   },
@@ -179,11 +181,7 @@
   },
   "dataCaptureAndProductionSection": {
     "DataAcquisitionAndProcessing": {
-      "processStep": [
-        {
-          "description": "SINTEF har utviklet en støyberegningsmodell for Forsvaret og Avinor. Modellen beregner støy i innflyvningssoner og støy ved bakken, både maksimalstøy og gjennomsnittsverdier. Det er krav til støyberegninger hvert 10 år eller ved store endringer i flytrafikken. Ofte gjøres beregninger hvert 4. år i forbindelse med revisjon av kommunedelplaner. Datasettet gir opplysninger om støysoner rød og gul sone som gir forskjellige begrensninger for arealbruk i henhold til \"Retningslinje for behandling av støy i arealplanlegging (T-1442)\". Leverandør vil være Forsvarsbygg og Avinor."
-        }
-      ]
+      "dataCaptureStatement": "SINTEF har utviklet en støyberegningsmodell for Forsvaret og Avinor. Modellen beregner støy i innflyvningssoner og støy ved bakken, både maksimalstøy og gjennomsnittsverdier. Det er krav til støyberegninger hvert 10 år eller ved store endringer i flytrafikken. Ofte gjøres beregninger hvert 4. år i forbindelse med revisjon av kommunedelplaner. Datasettet gir opplysninger om støysoner rød og gul sone som gir forskjellige begrensninger for arealbruk i henhold til \"Retningslinje for behandling av støy i arealplanlegging (T-1442)\". Leverandør vil være Forsvarsbygg og Avinor."
     }
   },
   "portrayal": {
@@ -197,7 +195,7 @@
           "unitsOfDelivery": "fylkesvis, kommunevis, landsfiler",
           "deliveryMediumName": "Geonorge nedlastning",
           "deliveryService": {
-            "serviceEndpoint": "https://nedlasting.geonorge.no/api/capabilities/",
+            "serviceEndpoint": "https://nedlasting.geonorge.no/api/capabilities/1489f7f8-40c8-4dc4-83b6-bcf277b56506",
             "serviceProperty": {
               "type": "Geonorge nedlastning",
               "value": "GEONORGE:DOWNLOAD"
@@ -210,6 +208,9 @@
           },
           {
             "formatName": "GML"
+          },
+          {
+            "formatName": "GPKG"
           },
           {
             "formatName": "SOSI"
@@ -253,6 +254,26 @@
         "deliveryFormat": [
           {
             "formatName": "GML"
+          }
+        ]
+      }
+    },
+    {
+      "delivery": {
+        "deliveryMedium": {
+          "unitsOfDelivery": "fylkesvis, kommunevis, landsfiler",
+          "deliveryMediumName": "Atom Feed",
+          "deliveryService": {
+            "serviceEndpoint": "http://nedlasting.geonorge.no/geonorge/ATOM-feeds/Flystoydata_AtomFeedGPKG.xml",
+            "serviceProperty": {
+              "type": "Atom Feed",
+              "value": "W3C:AtomFeed"
+            }
+          }
+        },
+        "deliveryFormat": [
+          {
+            "formatName": "GPKG"
           }
         ]
       }
@@ -321,7 +342,7 @@
   "metadataSection": {
     "metadataStandard": "ISO19115",
     "metadataStandardVersion": "2003",
-    "metadataDate": "2026-09-16",
+    "metadataDate": "2026-10-14",
     "language": "nor",
     "contact": {
       "organizationName": "Avinor",
@@ -346,5 +367,22 @@
       "title": "Produktside",
       "href": "http://avinor.maps.arcgis.com/apps/Viewer/index.html?appid=d985928855be400d86b0eba4f617c764"
     }
-  ]
+  ],
+  "chapterAutofill": {
+    "om_spesifikasjonen": 10,
+    "om_produktet": 90,
+    "formaal": 0,
+    "bruksomraade": 23,
+    "omfang": 24,
+    "datainnhold_og_struktur": 0,
+    "referansesystem": 36,
+    "datakvalitet": 85,
+    "datafangst_og_produksjon": 80,
+    "vedlikehold": 4,
+    "presentasjon": 2,
+    "leveranse": 72,
+    "metadata": 14,
+    "tilleggsinformasjon": 4,
+    "datamodell": 774
+  }
 }

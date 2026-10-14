@@ -170,25 +170,9 @@
         "cardinality": "1",
         "valueDomain": {
           "kind": "codelist",
-          "listedValues": [
-            {
-              "value": "Rød sone",
-              "label": "områder som ikke er egnet til støyfølsomme bruksformål, og etablering av ny støyfølsom bebyggelse skal unngås\n\n-- Definition --\nareas which are not suitable for noise sensitive use, and development of new noise sensitive building developments should be avoided"
-            },
-            {
-              "value": "Gul sone",
-              "label": "vurderingssone hvor støyfølsom bebyggelse kan oppføres dersom avbøtende tiltak gir tilfredstillende støyforhold\n\n-- Definition --\nevaluation zone where noise sensitive building developments may be built if corrective measures yield satisfactory noise conditions"
-            },
-            {
-              "value": "Grønn sone",
-              "label": "verdifulle stille området, definert av kommunen\n\n-- Definition --\nvaluable quiet areas, defined by the municipality"
-            },
-            {
-              "value": "Grå sone",
-              "label": "område hvor støysone ikke er kartlagt\n\n-- Definition --\nareas where the noise zone has not been ??surveyed/identified"
-            }
-          ],
-          "definition": "støysone for planleggingsformål\n\n\n-- Definition - -\nnoise zone for planning purposes"
+          "definition": "støysone for planleggingsformål\n\n\n-- Definition - -\nnoise zone for planning purposes",
+          "asDictionary": "true",
+          "codeList": "https://register.geonorge.no/sosi-kodelister/forurensning/st%c3%b8y/st%c3%b8ysonekategori"
         },
         "taggedValues": {
           "SOSI_navn": "STØYSONEKATEGORI"
@@ -201,13 +185,9 @@
         "cardinality": "1",
         "valueDomain": {
           "kind": "codelist",
-          "listedValues": [
-            {
-              "value": "Flyplass",
-              "label": "Gjelder også helikopterlandingsplass\n\n-- Definition --\nIncludes helicopter landing pad"
-            }
-          ],
-          "definition": "type støykilder\n\n\n-- Definition - -\ntypes of noise sources"
+          "definition": "type støykilder\n\n\n-- Definition - -\ntypes of noise sources",
+          "asDictionary": "true",
+          "codeList": "https://register.geonorge.no/sosi-kodelister/forurensning/st%c3%b8y/st%c3%b8ykilde"
         },
         "taggedValues": {
           "SOSI_navn": "STØYKILDE"
